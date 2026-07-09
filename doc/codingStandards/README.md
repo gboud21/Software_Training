@@ -32,7 +32,21 @@ graph TD
 
 1. **`general/`**: Platform and language-agnostic standards.
    - **[cleanCode/](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/)**: Summaries and adaptations of classic clean-code methodologies.
-     - *Existing:* [Chapter1.md](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/Chapter1.md) (Philosophy & Code Quality).
+     - [Chapter 1: Philosophy](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/Chapter1.md)
+     - [Chapter 2: Meaningful Names](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/Chapter2.md)
+     - [Chapter 3: Functions](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/Chapter3.md)
+     - [Chapter 4: Comments](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/Chapter4.md)
+     - [Chapter 5: Formatting](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/Chapter5.md)
+     - [Chapter 6: Objects & Data Structures](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/Chapter6.md)
+     - [Chapter 7: Error Handling](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/Chapter7.md)
+     - [Chapter 8: Boundaries](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/Chapter8.md)
+     - [Chapter 9: Unit Tests](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/Chapter9.md)
+     - [Chapter 10: Classes](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/Chapter10.md)
+     - [Chapter 11: Systems](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/Chapter11.md)
+     - [Chapter 12: Emergence](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/Chapter12.md)
+     - [Chapter 13: Concurrency](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/Chapter13.md)
+     - [Chapters 14–16: Refactoring Case Studies](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/Chapters14_16.md)
+     - [Chapter 17: Smells & Heuristics](file:///home/gboud21/code/Software_Training/doc/codingStandards/general/cleanCode/Chapter17.md)
 2. **`embedded/`**: Domain-specific standards for embedded systems.
    - **`c/`**: Safe C development, resource constraint management, and hardware safety.
    - **`cpp/`**: Modern C++ best practices for embedded systems (e.g., avoiding RTTI/exceptions, using templates safely).
