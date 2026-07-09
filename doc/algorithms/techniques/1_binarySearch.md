@@ -1,4 +1,4 @@
-Overview
+# Overview
 -Binary Search is really an search algorithm for finding an item/data point within a sorted list. It works by repeatedly narrowing the set of data
  by dividing it in half until there is only one item remaining. 
 -This document describes the conditions which must be met for a problem to be a candidate to use the Binary Search algorithm; as well as,
@@ -8,12 +8,12 @@ Overview
 -It is important to note that this algorithm can be implemented in either a loop or by using recursion. A template for both cases is provided
  below. Depending on the target environment one choice may be preferable to the other.
 
-Conditions
+## Conditions
 -For a problem to be elgible to use the Binary Search algorithm, the following conditions must be satisified
     1. The input data must be a sorted Array, List or something similar. The key point is that it must be sorted
     2. The problem involves finding a single element within the data set
 
-Procedure
+## Procedure
 -This section describes the steps required to implement Binary Search. For this example, imagine there is an array of integers sorted in 
  ascending order from 0 --> 99 so that the array has exactly 100 entries. In this example it the array is 0-based, meaning that the first
  entry in the array is found at position 0.
@@ -43,7 +43,8 @@ Procedure
            because we have already ruled out that value.
            ii. min = inspectionPosition - 1
 
-Binary Search Template using Loops
+## Templates
+### Binary Search Template using Loops
 -In general, the recursion case is preferable for Binary Search, unless you are in a Safety Critical environment where it is more
  preferable to use loops due to the ability to ensure that the call stack will not grow infinitely and by extension to reduce cyclical
  compelxity allowing Static Analysis tools to more easily analyze the code. 
@@ -117,7 +118,7 @@ int findValue(std::vector<int> nums, int targetValue)
     return targetPosition;
 }
 
-Binary Search Template using Recursion
+### Binary Search Template using Recursion
 int findValue(std::vector<int> nums, int targetValue)
 {
     int min = 0;

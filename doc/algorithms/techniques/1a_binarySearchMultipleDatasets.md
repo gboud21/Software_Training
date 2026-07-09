@@ -1,11 +1,11 @@
-Overview
+# Overview
 -While Binary Search is a useful algorithm when all of the data is contained within a single dataset, it cannot be directly used
  if that same data is spread across multiple data sets, for example multiple arrays. If however the data is still sorted, but is just
  overlapping, then a modified Binary Search can be used to solve the problem. The first possible solution is to simply take each of
  the datasets and combine them into a single array/list and then run Binary Search on the new data set. This however can be an expensive
  operation for large data sets. The following section will explain how to implement the modified Binary Search without combining data sets.
 
-Multiple Data set Binary Search Procedure
+## Multiple Data set Binary Search Procedure
 -The Multiple Data set Binary Search can be broken down into two scenarios that make this algorithm easier to understand. The first is what
  happens when the datasets contain the same number of elements; while the second is when each data set contains different numbers of elements.
 

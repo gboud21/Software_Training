@@ -1,5 +1,6 @@
 #include "ValidAnagram.h"
 
+#include <cstdint>
 #include <unordered_map>
 
 namespace alg

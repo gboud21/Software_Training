@@ -1,3 +1,17 @@
+# Start
+# Include the FetchContent module
+include(FetchContent)
+
+# Tell CMake where to download GoogleTest
+FetchContent_Declare(
+  googletest
+  GIT_REPOSITORY https://github.com/google/googletest.git
+  GIT_TAG        v1.14.0 # Or whichever version you prefer
+)
+
+# Make GoogleTest available to your build
+FetchContent_MakeAvailable(googletest)
+
 enable_testing()
 
 # Add the subdirectories
@@ -16,13 +30,6 @@ add_subdirectory(problem226)
 add_subdirectory(problem278)
 add_subdirectory(problem704)
 
-# Compile Executable
-set(GTest_ROOT /usr/src/googletest/googletest)
-add_subdirectory(${GTest_ROOT}
-        "${CMAKE_CURRENT_BINARY_DIR}/googletest" EXCLUDE_FROM_ALL)
-
-
-# set(LIBRARY_NAME mapsTests)
 set(TEST_PROJECT_NAME LeetCodeTest)
 
 # Create a variable to contain the source files

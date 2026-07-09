@@ -1,5 +1,6 @@
 #include "ValidParentheses.h"
 #include <stack>
+#include <cstdint>
 
 namespace alg
 {

@@ -1,0 +1,2 @@
+# Move Semantics
+Before C++11, returning large objects from functions or adding them to vectors often resulted in expensive, unnecessary copies. Move semantics allow the internal data of a temporary object to be "stolen" or moved rather than copied, resulting in massive performance boosts under the hood.
