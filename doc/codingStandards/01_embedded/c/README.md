@@ -37,5 +37,5 @@ This document establishes the coding standards and best practices for writing ro
 ---
 
 ## 📚 References
-* [NASA's Power of 10 Rules](file:///home/gboud21/code/Software_Training/doc/codingStandards/reference-standards/nasa/TenCommandments.txt)
+* [NASA's Power of 10 Rules](file:///home/gboud21/code/Software_Training/doc/codingStandards/99_reference-standards/nasa/TenCommandments.txt)
 * MISRA C:2012 Guidelines
