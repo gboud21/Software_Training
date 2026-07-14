@@ -19,8 +19,13 @@ graph TD
 
     Gen --> Naming["naming-conventions.md"]
     Gen --> Funcs["functions-and-classes.md"]
-    Gen --> Comm["comments-and-formatting.md"]
-    Gen --> Err["error-handling-and-testing.md"]
+    Gen --> Form["formatting/comments-and-formatting.md"]
+    Gen --> Err["error-handling-and-testing/"]
+
+    Err --> ErrMain["error-handling-and-testing.md"]
+    Err --> ErrC["c.md"]
+    Err --> ErrCpp["cpp.md"]
+    Err --> ErrRust["rust.md"]
 
     Emb --> EmbC["c/"]
     Emb --> EmbCpp["cpp/"]
@@ -35,8 +40,12 @@ graph TD
 1.  **[00_general/](file:///home/gboud21/code/Software_Training/doc/codingStandards/00_general/)**: Platform and language-agnostic actionable standards.
     *   [naming-conventions.md](file:///home/gboud21/code/Software_Training/doc/codingStandards/00_general/naming-conventions.md): Casing, naming constraints, and concept alignment rules.
     *   [functions-and-classes.md](file:///home/gboud21/code/Software_Training/doc/codingStandards/00_general/functions-and-classes.md): Function and class size limits, parameter rules, and SRP/Cohesion limits.
-    *   [comments-and-formatting.md](file:///home/gboud21/code/Software_Training/doc/codingStandards/00_general/comments-and-formatting.md): Formatting layout, vertical/horizontal distance, and comment rules.
-    *   [error-handling-and-testing.md](file:///home/gboud21/code/Software_Training/doc/codingStandards/00_general/error-handling-and-testing.md): Exceptions, defensive coding, null-safety, assertions, and unit testing (F.I.R.S.T.).
+    *   [formatting/comments-and-formatting.md](file:///home/gboud21/code/Software_Training/doc/codingStandards/00_general/formatting/comments-and-formatting.md): Formatting layout, vertical/horizontal distance, and comments.
+    *   [error-handling-and-testing/](file:///home/gboud21/code/Software_Training/doc/codingStandards/00_general/error-handling-and-testing/): Structure for error handling and validation:
+        *   [error-handling-and-testing.md](file:///home/gboud21/code/Software_Training/doc/codingStandards/00_general/error-handling-and-testing/error-handling-and-testing.md): Common error philosophy, null-safety, and F.I.R.S.T. unit testing principles.
+        *   [c.md](file:///home/gboud21/code/Software_Training/doc/codingStandards/00_general/error-handling-and-testing/c.md): C error return codes, out pointers, and unity testing guidelines.
+        *   [cpp.md](file:///home/gboud21/code/Software_Training/doc/codingStandards/00_general/error-handling-and-testing/cpp.md): C++ optional/expected types, exception usage, and Google Test patterns.
+        *   [rust.md](file:///home/gboud21/code/Software_Training/doc/codingStandards/00_general/error-handling-and-testing/rust.md): Rust Result/Option types, panic avoidance rules, and cargo testing.
 2.  **[01_embedded/](file:///home/gboud21/code/Software_Training/doc/codingStandards/01_embedded/)**: Domain-specific standards for embedded systems.
     *   [c/README.md](file:///home/gboud21/code/Software_Training/doc/codingStandards/01_embedded/c/README.md): Safe C development, resource constraint management, and hardware safety.
     *   [cpp/README.md](file:///home/gboud21/code/Software_Training/doc/codingStandards/01_embedded/cpp/README.md): Modern C++ best practices for embedded systems (e.g., avoiding RTTI/exceptions, using templates safely).
